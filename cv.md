@@ -29,14 +29,14 @@ Skills:
 
 **Code example:**
 1. Landing page for my friends:
-   * source: https://github.com/IlijaNikolaev/sro-expertise
-   * production: https://dopusk-sro24.com/
+   * source: [https://github.com/IlijaNikolaev/sro-expertise](https://github.com/IlijaNikolaev/sro-expertise)
+   * production: [https://dopusk-sro24.com/](https://dopusk-sro24.com/)
               
  2. Next projects are not open sourced and i only can show production websites and tell a little-bit about what i've done:
-    * https://www.homeandcook.ru/ - all main page's layout and mobile menu
-    * https://optigrill.ru/ - using only one script file connected on the customer's site made adding to cart and redirecting to our company cart-website
-    * https://openstart.ru/ - all frontend and layout
-    * https://kladzdor.ru/sporlastic - landing page with dynamic backend output of needed products
+    * [https://www.homeandcook.ru/](https://www.homeandcook.ru/) - all main page's layout and mobile menu
+    * [https://optigrill.ru/](https://optigrill.ru/) - using only one script file connected on the customer's site made adding to cart and redirecting to our company cart-website
+    * [https://openstart.ru/](https://openstart.ru/) - all frontend and layout
+    * [https://kladzdor.ru/sporlastic](https://kladzdor.ru/sporlastic) - landing page with dynamic backend output of needed products
 
 **Experience**: 6 month of studying in HTML academy and free resources like learn.javascript.ru,
             1 year of working (half of it [here](https://openstart.ru/) and another one [here](http://fim.ltd/))
