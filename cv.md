@@ -11,12 +11,12 @@ Skills:
   * JavaScript
   * HTML
   * CSS
-  * less
+  * Less
   * Scss
-  * gulp
-  * bem
+  * Gulp
+  * BEM
  * **Backend**
-   * basic knowledge in PHP (drupal, bitrix)
+   * Basic knowledge in PHP (drupal, bitrix)
 * **OS**
   * linux ubuntu/debian
   * Windows
@@ -25,7 +25,7 @@ Skills:
   * Figma
   * Zeplin
   * Avocode
-  * 
+
 **Code example:**
 1. Landing page for my friends:
    * source: https://github.com/IlijaNikolaev/sro-expertise
