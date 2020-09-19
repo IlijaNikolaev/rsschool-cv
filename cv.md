@@ -1,8 +1,8 @@
 **Name**: Nikolaev Ilya
 **Contacts**: 
-1. phone - +79085552992
+1. phone - [+79085552992](tel:+79085552992)
 2. tg - @ilijanikolaev
-3. email - nikolaev.xo@gmail.com
+3. email - [nikolaev.xo@gmail.com](mailto:nikolaev.xo@gmail.com)
 
 **Summary**: I'm interested in programming because of the ability to create some great things. I like to work with difficult
 tasks, explore new technologies and acquire new skills. My current goal is to became a professional javascript developer.
