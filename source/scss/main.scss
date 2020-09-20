@@ -1,0 +1,296 @@
+$tablet: 1024px;
+$phone: 768px;
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+p,
+body,
+aside,
+main {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.main {
+  max-width: 1440px;
+  margin: 30px auto;
+  display: flex;
+  box-shadow: 0px 0px 50px grey;
+  @media (max-width: $tablet) {
+    display: block;
+    margin: 0;
+    box-shadow: none;
+  }
+
+}
+
+.aside {
+  background: #3b393c;
+  width: 33%;
+  padding: 30px 60px;
+  @media (max-width: $tablet) {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    section{
+      width: 45%;
+    }
+  }
+  @media (max-width: $phone) {
+    section{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__mob-wrapp{
+    @media (max-width: $tablet) {
+      width: 100%;
+    }
+  }
+}
+
+.main-image__wrapp {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border: 3px solid greenyellow;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto 25px auto;
+}
+
+.main-image__img {
+  width: 100%;
+  height: auto;
+}
+
+.common-title {
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  @media (max-width: $tablet) {
+  text-align: center;
+  }
+
+  &--dark {
+    color: #3b393c;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+  }
+}
+
+.contacts {
+
+  &__list-item {
+    margin-bottom: 15px;
+  }
+
+  &__list-item-title {
+    display: block;
+    font-size: 24px;
+    color: greenyellow;
+    font-weight: 500;
+  }
+
+  &__list-item-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
+
+.skills {
+  margin-top: 30px;
+  @media (max-width: $tablet) {
+    margin-top: 0;
+  }
+
+  &__list-item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+  &__list-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: greenyellow;
+    border-radius: 50%;
+  }
+}
+
+.about {
+  padding: 30px 60px;
+  color: #3b393c;
+  background: rgba(0, 0, 0, 0.3);
+
+  @media (max-width: $tablet) {
+    padding: 20px;
+  }
+
+
+  &__title {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  &__title-green {
+    color: greenyellow;
+  }
+
+  &__subtitle {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  &__summary {
+    font-size: 18px;
+  }
+}
+
+.timeline {
+
+  &__time {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 10px;
+    @media (max-width: $phone) {
+      font-size: 18px;
+    }
+
+  }
+
+  &__list {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 45%;
+  }
+
+  &__about-item {
+    box-sizing: border-box;
+    width: calc(55% - 1px);
+    padding-bottom: 15px;
+    padding-left: 40px;
+    border-left: 1px solid #3b393c;
+    position: relative;
+
+    @media (max-width: $phone) {
+      padding-left: 20px;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: -5px;
+      top: 0;
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: greenyellow;
+      border-radius: 50%;
+    }
+  }
+
+  &__about-link {
+    text-decoration: none;
+    color: greenyellow;
+    cursor: pointer;
+
+    &:hover {
+      color: darken(greenyellow, 20%);
+    }
+  }
+
+  &__position {
+    font-weight: 500;
+    text-transform: none;
+    font-size: 20px;
+
+    @media (max-width: $phone) {
+      font-size: 18px;
+    }
+  }
+
+  &__tasks {
+    font-weight: 400;
+    text-transform: none;
+    font-size: 18px;
+    @media (max-width: $phone) {
+      font-size: 16px;
+    }
+  }
+
+}
+
+.examples {
+
+  &__subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+    &:nth-of-type(2) {
+      margin-top: 20px;
+    }
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+
+    &:not(:last-of-type) {
+      border-bottom: 1px dashed #3b393c;
+    }
+  }
+
+  &__description {
+    width: 50%;
+  }
+
+  &__link {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: greenyellow;
+  }
+
+}
+
